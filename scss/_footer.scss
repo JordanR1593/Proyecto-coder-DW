@@ -16,7 +16,7 @@ footer{
 @media only screen and (max-width: 900px)
  {
     footer{
-        background-color: $bgcolorThird;
+        
         .footer__footer1{
             display: flex;
             flex-direction: column;
@@ -27,9 +27,7 @@ footer{
             
         }
         .footer__redesSociales{
-            display: flex;
-            justify-content: space-around;
-            filter: invert(0.7) sepia(7) hue-rotate(50deg);
+            
             padding: 0;
         }
     }

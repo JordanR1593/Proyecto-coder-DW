@@ -13,20 +13,15 @@ footer {
     padding: 20px 300px; }
 
 @media only screen and (max-width: 900px) {
-  footer {
-    background-color: #3f807e; }
-    footer .footer__footer1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      font-size: 15px;
-      text-align: center;
-      padding-bottom: 5px; }
-    footer .footer__redesSociales {
-      display: flex;
-      justify-content: space-around;
-      filter: invert(0.7) sepia(7) hue-rotate(50deg);
-      padding: 0; } }
+  footer .footer__footer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 5px; }
+  footer .footer__redesSociales {
+    padding: 0; } }
 
 header {
   box-shadow: 0 10px 5px 5px rgba(240, 238, 238, 0.844); }
@@ -128,7 +123,8 @@ td {
         grid-template-areas: "namePerson1 descriptionPerson1";
         grid-area: familiaE1; }
         .familias .familiasGroup1 .familiaElement1 .familiaE1 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup1 .familiaElement1 .familiaE1 #namePerson {
           grid-area: namePerson1;
           background-color: yellow; }
@@ -141,7 +137,8 @@ td {
         grid-template-areas: "namePerson2 descriptionPerson2";
         grid-area: familiaE2; }
         .familias .familiasGroup1 .familiaElement1 .familiaE2 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup1 .familiaElement1 .familiaE2 #namePerson {
           grid-area: namePerson2;
           background-color: yellow; }
@@ -154,7 +151,8 @@ td {
         grid-template-areas: "namePerson3 descriptionPerson3";
         grid-area: familiaE3; }
         .familias .familiasGroup1 .familiaElement1 .familiaE3 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup1 .familiaElement1 .familiaE3 #namePerson {
           grid-area: namePerson3;
           background-color: yellow; }
@@ -167,7 +165,8 @@ td {
         grid-template-areas: "namePerson4 descriptionPerson4";
         grid-area: familiaE4; }
         .familias .familiasGroup1 .familiaElement1 .familiaE4 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup1 .familiaElement1 .familiaE4 #namePerson {
           grid-area: namePerson4;
           background-color: yellow; }
@@ -180,7 +179,8 @@ td {
         grid-template-areas: "namePerson5 descriptionPerson5";
         grid-area: familiaE5; }
         .familias .familiasGroup1 .familiaElement1 .familiaE5 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup1 .familiaElement1 .familiaE5 #namePerson {
           grid-area: namePerson5;
           background-color: yellow; }
@@ -230,7 +230,8 @@ td {
         grid-template-areas: "namePerson1 descriptionPerson1";
         grid-area: familiaE1; }
         .familias .familiasGroup2 .familiaElement2 .familiaE1 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup2 .familiaElement2 .familiaE1 #namePerson {
           grid-area: namePerson1;
           background-color: yellow; }
@@ -243,7 +244,8 @@ td {
         grid-template-areas: "namePerson2 descriptionPerson2";
         grid-area: familiaE2; }
         .familias .familiasGroup2 .familiaElement2 .familiaE2 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup2 .familiaElement2 .familiaE2 #namePerson {
           grid-area: namePerson2;
           background-color: yellow; }
@@ -256,7 +258,8 @@ td {
         grid-template-areas: "namePerson3 descriptionPerson3";
         grid-area: familiaE3; }
         .familias .familiasGroup2 .familiaElement2 .familiaE3 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup2 .familiaElement2 .familiaE3 #namePerson {
           grid-area: namePerson3;
           background-color: yellow; }
@@ -269,7 +272,8 @@ td {
         grid-template-areas: "namePerson4 descriptionPerson4";
         grid-area: familiaE4; }
         .familias .familiasGroup2 .familiaElement2 .familiaE4 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup2 .familiaElement2 .familiaE4 #namePerson {
           grid-area: namePerson4;
           background-color: yellow; }
@@ -282,7 +286,8 @@ td {
         grid-template-areas: "namePerson5 descriptionPerson5";
         grid-area: familiaE5; }
         .familias .familiasGroup2 .familiaElement2 .familiaE5 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup2 .familiaElement2 .familiaE5 #namePerson {
           grid-area: namePerson5;
           background-color: yellow; }
@@ -332,7 +337,8 @@ td {
         grid-template-areas: "namePerson1 descriptionPerson1";
         grid-area: familiaE1; }
         .familias .familiasGroup3 .familiaElement3 .familiaE1 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup3 .familiaElement3 .familiaE1 #namePerson {
           grid-area: namePerson1;
           background-color: yellow; }
@@ -345,7 +351,8 @@ td {
         grid-template-areas: "namePerson2 descriptionPerson2";
         grid-area: familiaE2; }
         .familias .familiasGroup3 .familiaElement3 .familiaE2 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup3 .familiaElement3 .familiaE2 #namePerson {
           grid-area: namePerson2;
           background-color: yellow; }
@@ -358,7 +365,8 @@ td {
         grid-template-areas: "namePerson3 descriptionPerson3";
         grid-area: familiaE3; }
         .familias .familiasGroup3 .familiaElement3 .familiaE3 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup3 .familiaElement3 .familiaE3 #namePerson {
           grid-area: namePerson3;
           background-color: yellow; }
@@ -371,7 +379,8 @@ td {
         grid-template-areas: "namePerson4 descriptionPerson4";
         grid-area: familiaE4; }
         .familias .familiasGroup3 .familiaElement3 .familiaE4 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup3 .familiaElement3 .familiaE4 #namePerson {
           grid-area: namePerson4;
           background-color: yellow; }
@@ -384,7 +393,8 @@ td {
         grid-template-areas: "namePerson5 descriptionPerson5";
         grid-area: familiaE5; }
         .familias .familiasGroup3 .familiaElement3 .familiaE5 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup3 .familiaElement3 .familiaE5 #namePerson {
           grid-area: namePerson5;
           background-color: yellow; }
@@ -434,7 +444,8 @@ td {
         grid-template-areas: "namePerson1 descriptionPerson1";
         grid-area: familiaE1; }
         .familias .familiasGroup4 .familiaElement4 .familiaE1 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup4 .familiaElement4 .familiaE1 #namePerson {
           grid-area: namePerson1;
           background-color: yellow; }
@@ -447,7 +458,8 @@ td {
         grid-template-areas: "namePerson2 descriptionPerson2";
         grid-area: familiaE2; }
         .familias .familiasGroup4 .familiaElement4 .familiaE2 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup4 .familiaElement4 .familiaE2 #namePerson {
           grid-area: namePerson2;
           background-color: yellow; }
@@ -460,7 +472,8 @@ td {
         grid-template-areas: "namePerson3 descriptionPerson3";
         grid-area: familiaE3; }
         .familias .familiasGroup4 .familiaElement4 .familiaE3 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup4 .familiaElement4 .familiaE3 #namePerson {
           grid-area: namePerson3;
           background-color: yellow; }
@@ -473,7 +486,8 @@ td {
         grid-template-areas: "namePerson4 descriptionPerson4";
         grid-area: familiaE4; }
         .familias .familiasGroup4 .familiaElement4 .familiaE4 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup4 .familiaElement4 .familiaE4 #namePerson {
           grid-area: namePerson4;
           background-color: yellow; }
@@ -486,7 +500,8 @@ td {
         grid-template-areas: "namePerson5 descriptionPerson5";
         grid-area: familiaE5; }
         .familias .familiasGroup4 .familiaElement4 .familiaE5 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup4 .familiaElement4 .familiaE5 #namePerson {
           grid-area: namePerson5;
           background-color: yellow; }
@@ -536,7 +551,8 @@ td {
         grid-template-areas: "namePerson1 descriptionPerson1";
         grid-area: familiaE1; }
         .familias .familiasGroup5 .familiaElement5 .familiaE1 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup5 .familiaElement5 .familiaE1 #namePerson {
           grid-area: namePerson1;
           background-color: yellow; }
@@ -549,7 +565,8 @@ td {
         grid-template-areas: "namePerson2 descriptionPerson2";
         grid-area: familiaE2; }
         .familias .familiasGroup5 .familiaElement5 .familiaE2 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup5 .familiaElement5 .familiaE2 #namePerson {
           grid-area: namePerson2;
           background-color: yellow; }
@@ -562,7 +579,8 @@ td {
         grid-template-areas: "namePerson3 descriptionPerson3";
         grid-area: familiaE3; }
         .familias .familiasGroup5 .familiaElement5 .familiaE3 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup5 .familiaElement5 .familiaE3 #namePerson {
           grid-area: namePerson3;
           background-color: yellow; }
@@ -575,7 +593,8 @@ td {
         grid-template-areas: "namePerson4 descriptionPerson4";
         grid-area: familiaE4; }
         .familias .familiasGroup5 .familiaElement5 .familiaE4 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup5 .familiaElement5 .familiaE4 #namePerson {
           grid-area: namePerson4;
           background-color: yellow; }
@@ -588,7 +607,8 @@ td {
         grid-template-areas: "namePerson5 descriptionPerson5";
         grid-area: familiaE5; }
         .familias .familiasGroup5 .familiaElement5 .familiaE5 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup5 .familiaElement5 .familiaE5 #namePerson {
           grid-area: namePerson5;
           background-color: yellow; }
@@ -638,7 +658,8 @@ td {
         grid-template-areas: "namePerson1 descriptionPerson1";
         grid-area: familiaE1; }
         .familias .familiasGroup6 .familiaElement6 .familiaE1 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup6 .familiaElement6 .familiaE1 #namePerson {
           grid-area: namePerson1;
           background-color: yellow; }
@@ -651,7 +672,8 @@ td {
         grid-template-areas: "namePerson2 descriptionPerson2";
         grid-area: familiaE2; }
         .familias .familiasGroup6 .familiaElement6 .familiaE2 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup6 .familiaElement6 .familiaE2 #namePerson {
           grid-area: namePerson2;
           background-color: yellow; }
@@ -664,7 +686,8 @@ td {
         grid-template-areas: "namePerson3 descriptionPerson3";
         grid-area: familiaE3; }
         .familias .familiasGroup6 .familiaElement6 .familiaE3 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup6 .familiaElement6 .familiaE3 #namePerson {
           grid-area: namePerson3;
           background-color: yellow; }
@@ -677,7 +700,8 @@ td {
         grid-template-areas: "namePerson4 descriptionPerson4";
         grid-area: familiaE4; }
         .familias .familiasGroup6 .familiaElement6 .familiaE4 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup6 .familiaElement6 .familiaE4 #namePerson {
           grid-area: namePerson4;
           background-color: yellow; }
@@ -690,7 +714,8 @@ td {
         grid-template-areas: "namePerson5 descriptionPerson5";
         grid-area: familiaE5; }
         .familias .familiasGroup6 .familiaElement6 .familiaE5 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup6 .familiaElement6 .familiaE5 #namePerson {
           grid-area: namePerson5;
           background-color: yellow; }
@@ -740,7 +765,8 @@ td {
         grid-template-areas: "namePerson1 descriptionPerson1";
         grid-area: familiaE1; }
         .familias .familiasGroup7 .familiaElement7 .familiaE1 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup7 .familiaElement7 .familiaE1 #namePerson {
           grid-area: namePerson1;
           background-color: yellow; }
@@ -753,7 +779,8 @@ td {
         grid-template-areas: "namePerson2 descriptionPerson2";
         grid-area: familiaE2; }
         .familias .familiasGroup7 .familiaElement7 .familiaE2 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup7 .familiaElement7 .familiaE2 #namePerson {
           grid-area: namePerson2;
           background-color: yellow; }
@@ -766,7 +793,8 @@ td {
         grid-template-areas: "namePerson3 descriptionPerson3";
         grid-area: familiaE3; }
         .familias .familiasGroup7 .familiaElement7 .familiaE3 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup7 .familiaElement7 .familiaE3 #namePerson {
           grid-area: namePerson3;
           background-color: yellow; }
@@ -779,7 +807,8 @@ td {
         grid-template-areas: "namePerson4 descriptionPerson4";
         grid-area: familiaE4; }
         .familias .familiasGroup7 .familiaElement7 .familiaE4 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup7 .familiaElement7 .familiaE4 #namePerson {
           grid-area: namePerson4;
           background-color: yellow; }
@@ -792,7 +821,8 @@ td {
         grid-template-areas: "namePerson5 descriptionPerson5";
         grid-area: familiaE5; }
         .familias .familiasGroup7 .familiaElement7 .familiaE5 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup7 .familiaElement7 .familiaE5 #namePerson {
           grid-area: namePerson5;
           background-color: yellow; }
@@ -842,7 +872,8 @@ td {
         grid-template-areas: "namePerson1 descriptionPerson1";
         grid-area: familiaE1; }
         .familias .familiasGroup8 .familiaElement8 .familiaE1 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup8 .familiaElement8 .familiaE1 #namePerson {
           grid-area: namePerson1;
           background-color: yellow; }
@@ -855,7 +886,8 @@ td {
         grid-template-areas: "namePerson2 descriptionPerson2";
         grid-area: familiaE2; }
         .familias .familiasGroup8 .familiaElement8 .familiaE2 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup8 .familiaElement8 .familiaE2 #namePerson {
           grid-area: namePerson2;
           background-color: yellow; }
@@ -868,7 +900,8 @@ td {
         grid-template-areas: "namePerson3 descriptionPerson3";
         grid-area: familiaE3; }
         .familias .familiasGroup8 .familiaElement8 .familiaE3 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup8 .familiaElement8 .familiaE3 #namePerson {
           grid-area: namePerson3;
           background-color: yellow; }
@@ -881,7 +914,8 @@ td {
         grid-template-areas: "namePerson4 descriptionPerson4";
         grid-area: familiaE4; }
         .familias .familiasGroup8 .familiaElement8 .familiaE4 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup8 .familiaElement8 .familiaE4 #namePerson {
           grid-area: namePerson4;
           background-color: yellow; }
@@ -894,7 +928,8 @@ td {
         grid-template-areas: "namePerson5 descriptionPerson5";
         grid-area: familiaE5; }
         .familias .familiasGroup8 .familiaElement8 .familiaE5 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup8 .familiaElement8 .familiaE5 #namePerson {
           grid-area: namePerson5;
           background-color: yellow; }
@@ -944,7 +979,8 @@ td {
         grid-template-areas: "namePerson1 descriptionPerson1";
         grid-area: familiaE1; }
         .familias .familiasGroup9 .familiaElement9 .familiaE1 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup9 .familiaElement9 .familiaE1 #namePerson {
           grid-area: namePerson1;
           background-color: yellow; }
@@ -957,7 +993,8 @@ td {
         grid-template-areas: "namePerson2 descriptionPerson2";
         grid-area: familiaE2; }
         .familias .familiasGroup9 .familiaElement9 .familiaE2 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup9 .familiaElement9 .familiaE2 #namePerson {
           grid-area: namePerson2;
           background-color: yellow; }
@@ -970,7 +1007,8 @@ td {
         grid-template-areas: "namePerson3 descriptionPerson3";
         grid-area: familiaE3; }
         .familias .familiasGroup9 .familiaElement9 .familiaE3 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup9 .familiaElement9 .familiaE3 #namePerson {
           grid-area: namePerson3;
           background-color: yellow; }
@@ -983,7 +1021,8 @@ td {
         grid-template-areas: "namePerson4 descriptionPerson4";
         grid-area: familiaE4; }
         .familias .familiasGroup9 .familiaElement9 .familiaE4 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup9 .familiaElement9 .familiaE4 #namePerson {
           grid-area: namePerson4;
           background-color: yellow; }
@@ -996,7 +1035,8 @@ td {
         grid-template-areas: "namePerson5 descriptionPerson5";
         grid-area: familiaE5; }
         .familias .familiasGroup9 .familiaElement9 .familiaE5 p {
-          color: white; }
+          color: white;
+          padding-right: 60px; }
         .familias .familiasGroup9 .familiaElement9 .familiaE5 #namePerson {
           grid-area: namePerson5;
           background-color: yellow; }
@@ -1031,6 +1071,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement1 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement1 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1038,6 +1080,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement1 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement1 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1045,6 +1089,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement1 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement1 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1052,6 +1098,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement1 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement1 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1059,6 +1107,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement1 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement1 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1070,6 +1120,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement2 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement2 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1077,6 +1129,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement2 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement2 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1084,6 +1138,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement2 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement2 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1091,6 +1147,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement2 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement2 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1098,6 +1156,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement2 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement2 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1109,6 +1169,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement3 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement3 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1116,6 +1178,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement3 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement3 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1123,6 +1187,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement3 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement3 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1130,6 +1196,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement3 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement3 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1137,6 +1205,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement3 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement3 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1148,6 +1218,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement4 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement4 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1155,6 +1227,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement4 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement4 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1162,6 +1236,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement4 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement4 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1169,6 +1245,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement4 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement4 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1176,6 +1254,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement4 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement4 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1187,6 +1267,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement5 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement5 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1194,6 +1276,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement5 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement5 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1201,6 +1285,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement5 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement5 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1208,6 +1294,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement5 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement5 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1215,6 +1303,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement5 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement5 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1226,6 +1316,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement6 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement6 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1233,6 +1325,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement6 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement6 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1240,6 +1334,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement6 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement6 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1247,6 +1343,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement6 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement6 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1254,6 +1352,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement6 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement6 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1265,6 +1365,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement7 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement7 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1272,6 +1374,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement7 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement7 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1279,6 +1383,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement7 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement7 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1286,6 +1392,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement7 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement7 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1293,6 +1401,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement7 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement7 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1304,6 +1414,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement8 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement8 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1311,6 +1423,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement8 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement8 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1318,6 +1432,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement8 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement8 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1325,6 +1441,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement8 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement8 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1332,6 +1450,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement8 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement8 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1343,6 +1463,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement9 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement9 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1350,6 +1472,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement9 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement9 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1357,6 +1481,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement9 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement9 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1364,6 +1490,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement9 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement9 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1371,6 +1499,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup1 .familiaElement9 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup1 .familiaElement9 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1386,6 +1516,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement1 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement1 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1393,6 +1525,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement1 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement1 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1400,6 +1534,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement1 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement1 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1407,6 +1543,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement1 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement1 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1414,6 +1552,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement1 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement1 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1425,6 +1565,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement2 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement2 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1432,6 +1574,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement2 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement2 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1439,6 +1583,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement2 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement2 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1446,6 +1592,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement2 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement2 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1453,6 +1601,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement2 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement2 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1464,6 +1614,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement3 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement3 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1471,6 +1623,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement3 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement3 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1478,6 +1632,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement3 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement3 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1485,6 +1641,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement3 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement3 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1492,6 +1650,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement3 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement3 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1503,6 +1663,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement4 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement4 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1510,6 +1672,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement4 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement4 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1517,6 +1681,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement4 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement4 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1524,6 +1690,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement4 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement4 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1531,6 +1699,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement4 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement4 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1542,6 +1712,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement5 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement5 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1549,6 +1721,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement5 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement5 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1556,6 +1730,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement5 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement5 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1563,6 +1739,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement5 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement5 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1570,6 +1748,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement5 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement5 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1581,6 +1761,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement6 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement6 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1588,6 +1770,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement6 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement6 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1595,6 +1779,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement6 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement6 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1602,6 +1788,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement6 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement6 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1609,6 +1797,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement6 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement6 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1620,6 +1810,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement7 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement7 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1627,6 +1819,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement7 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement7 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1634,6 +1828,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement7 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement7 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1641,6 +1837,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement7 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement7 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1648,6 +1846,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement7 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement7 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1659,6 +1859,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement8 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement8 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1666,6 +1868,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement8 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement8 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1673,6 +1877,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement8 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement8 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1680,6 +1886,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement8 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement8 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1687,6 +1895,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement8 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement8 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1698,6 +1908,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement9 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement9 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1705,6 +1917,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement9 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement9 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1712,6 +1926,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement9 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement9 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1719,6 +1935,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement9 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement9 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1726,6 +1944,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup2 .familiaElement9 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup2 .familiaElement9 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1741,6 +1961,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement1 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement1 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1748,6 +1970,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement1 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement1 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1755,6 +1979,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement1 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement1 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1762,6 +1988,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement1 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement1 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1769,6 +1997,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement1 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement1 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1780,6 +2010,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement2 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement2 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1787,6 +2019,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement2 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement2 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1794,6 +2028,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement2 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement2 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1801,6 +2037,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement2 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement2 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1808,6 +2046,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement2 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement2 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1819,6 +2059,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement3 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement3 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1826,6 +2068,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement3 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement3 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1833,6 +2077,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement3 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement3 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1840,6 +2086,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement3 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement3 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1847,6 +2095,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement3 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement3 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1858,6 +2108,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement4 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement4 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1865,6 +2117,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement4 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement4 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1872,6 +2126,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement4 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement4 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1879,6 +2135,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement4 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement4 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1886,6 +2144,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement4 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement4 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1897,6 +2157,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement5 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement5 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1904,6 +2166,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement5 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement5 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1911,6 +2175,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement5 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement5 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1918,6 +2184,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement5 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement5 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1925,6 +2193,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement5 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement5 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1936,6 +2206,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement6 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement6 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1943,6 +2215,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement6 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement6 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1950,6 +2224,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement6 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement6 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1957,6 +2233,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement6 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement6 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -1964,6 +2242,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement6 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement6 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -1975,6 +2255,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement7 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement7 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -1982,6 +2264,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement7 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement7 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -1989,6 +2273,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement7 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement7 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -1996,6 +2282,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement7 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement7 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2003,6 +2291,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement7 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement7 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2014,6 +2304,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement8 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement8 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2021,6 +2313,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement8 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement8 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2028,6 +2322,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement8 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement8 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2035,6 +2331,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement8 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement8 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2042,6 +2340,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement8 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement8 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2053,6 +2353,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement9 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement9 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2060,6 +2362,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement9 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement9 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2067,6 +2371,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement9 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement9 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2074,6 +2380,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement9 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement9 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2081,6 +2389,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup3 .familiaElement9 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup3 .familiaElement9 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2096,6 +2406,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement1 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement1 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2103,6 +2415,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement1 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement1 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2110,6 +2424,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement1 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement1 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2117,6 +2433,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement1 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement1 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2124,6 +2442,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement1 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement1 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2135,6 +2455,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement2 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement2 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2142,6 +2464,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement2 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement2 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2149,6 +2473,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement2 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement2 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2156,6 +2482,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement2 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement2 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2163,6 +2491,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement2 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement2 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2174,6 +2504,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement3 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement3 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2181,6 +2513,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement3 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement3 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2188,6 +2522,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement3 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement3 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2195,6 +2531,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement3 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement3 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2202,6 +2540,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement3 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement3 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2213,6 +2553,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement4 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement4 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2220,6 +2562,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement4 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement4 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2227,6 +2571,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement4 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement4 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2234,6 +2580,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement4 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement4 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2241,6 +2589,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement4 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement4 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2252,6 +2602,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement5 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement5 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2259,6 +2611,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement5 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement5 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2266,6 +2620,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement5 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement5 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2273,6 +2629,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement5 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement5 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2280,6 +2638,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement5 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement5 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2291,6 +2651,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement6 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement6 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2298,6 +2660,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement6 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement6 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2305,6 +2669,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement6 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement6 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2312,6 +2678,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement6 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement6 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2319,6 +2687,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement6 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement6 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2330,6 +2700,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement7 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement7 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2337,6 +2709,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement7 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement7 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2344,6 +2718,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement7 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement7 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2351,6 +2727,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement7 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement7 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2358,6 +2736,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement7 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement7 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2369,6 +2749,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement8 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement8 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2376,6 +2758,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement8 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement8 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2383,6 +2767,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement8 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement8 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2390,6 +2776,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement8 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement8 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2397,6 +2785,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement8 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement8 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2408,6 +2798,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement9 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement9 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2415,6 +2807,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement9 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement9 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2422,6 +2816,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement9 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement9 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2429,6 +2825,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement9 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement9 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2436,6 +2834,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup4 .familiaElement9 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup4 .familiaElement9 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2451,6 +2851,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement1 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement1 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2458,6 +2860,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement1 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement1 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2465,6 +2869,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement1 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement1 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2472,6 +2878,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement1 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement1 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2479,6 +2887,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement1 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement1 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2490,6 +2900,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement2 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement2 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2497,6 +2909,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement2 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement2 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2504,6 +2918,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement2 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement2 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2511,6 +2927,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement2 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement2 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2518,6 +2936,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement2 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement2 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2529,6 +2949,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement3 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement3 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2536,6 +2958,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement3 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement3 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2543,6 +2967,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement3 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement3 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2550,6 +2976,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement3 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement3 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2557,6 +2985,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement3 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement3 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2568,6 +2998,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement4 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement4 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2575,6 +3007,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement4 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement4 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2582,6 +3016,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement4 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement4 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2589,6 +3025,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement4 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement4 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2596,6 +3034,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement4 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement4 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2607,6 +3047,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement5 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement5 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2614,6 +3056,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement5 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement5 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2621,6 +3065,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement5 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement5 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2628,6 +3074,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement5 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement5 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2635,6 +3083,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement5 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement5 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2646,6 +3096,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement6 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement6 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2653,6 +3105,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement6 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement6 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2660,6 +3114,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement6 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement6 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2667,6 +3123,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement6 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement6 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2674,6 +3132,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement6 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement6 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2685,6 +3145,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement7 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement7 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2692,6 +3154,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement7 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement7 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2699,6 +3163,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement7 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement7 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2706,6 +3172,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement7 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement7 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2713,6 +3181,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement7 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement7 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2724,6 +3194,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement8 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement8 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2731,6 +3203,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement8 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement8 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2738,6 +3212,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement8 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement8 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2745,6 +3221,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement8 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement8 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2752,6 +3230,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement8 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement8 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2763,6 +3243,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement9 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement9 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2770,6 +3252,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement9 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement9 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2777,6 +3261,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement9 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement9 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2784,6 +3270,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement9 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement9 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2791,6 +3279,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup5 .familiaElement9 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup5 .familiaElement9 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2806,6 +3296,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement1 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement1 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2813,6 +3305,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement1 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement1 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2820,6 +3314,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement1 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement1 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2827,6 +3323,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement1 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement1 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2834,6 +3332,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement1 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement1 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2845,6 +3345,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement2 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement2 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2852,6 +3354,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement2 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement2 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2859,6 +3363,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement2 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement2 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2866,6 +3372,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement2 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement2 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2873,6 +3381,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement2 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement2 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2884,6 +3394,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement3 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement3 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2891,6 +3403,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement3 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement3 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2898,6 +3412,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement3 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement3 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2905,6 +3421,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement3 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement3 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2912,6 +3430,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement3 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement3 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2923,6 +3443,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement4 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement4 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2930,6 +3452,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement4 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement4 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2937,6 +3461,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement4 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement4 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2944,6 +3470,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement4 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement4 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2951,6 +3479,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement4 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement4 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -2962,6 +3492,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement5 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement5 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -2969,6 +3501,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement5 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement5 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -2976,6 +3510,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement5 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement5 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -2983,6 +3519,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement5 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement5 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -2990,6 +3528,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement5 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement5 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3001,6 +3541,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement6 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement6 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3008,6 +3550,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement6 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement6 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3015,6 +3559,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement6 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement6 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3022,6 +3568,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement6 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement6 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3029,6 +3577,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement6 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement6 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3040,6 +3590,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement7 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement7 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3047,6 +3599,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement7 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement7 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3054,6 +3608,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement7 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement7 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3061,6 +3617,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement7 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement7 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3068,6 +3626,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement7 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement7 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3079,6 +3639,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement8 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement8 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3086,6 +3648,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement8 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement8 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3093,6 +3657,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement8 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement8 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3100,6 +3666,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement8 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement8 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3107,6 +3675,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement8 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement8 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3118,6 +3688,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement9 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement9 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3125,6 +3697,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement9 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement9 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3132,6 +3706,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement9 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement9 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3139,6 +3715,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement9 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement9 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3146,6 +3724,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup6 .familiaElement9 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup6 .familiaElement9 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3161,6 +3741,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement1 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement1 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3168,6 +3750,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement1 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement1 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3175,6 +3759,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement1 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement1 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3182,6 +3768,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement1 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement1 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3189,6 +3777,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement1 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement1 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3200,6 +3790,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement2 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement2 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3207,6 +3799,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement2 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement2 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3214,6 +3808,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement2 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement2 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3221,6 +3817,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement2 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement2 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3228,6 +3826,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement2 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement2 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3239,6 +3839,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement3 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement3 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3246,6 +3848,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement3 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement3 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3253,6 +3857,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement3 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement3 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3260,6 +3866,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement3 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement3 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3267,6 +3875,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement3 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement3 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3278,6 +3888,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement4 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement4 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3285,6 +3897,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement4 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement4 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3292,6 +3906,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement4 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement4 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3299,6 +3915,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement4 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement4 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3306,6 +3924,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement4 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement4 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3317,6 +3937,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement5 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement5 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3324,6 +3946,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement5 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement5 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3331,6 +3955,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement5 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement5 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3338,6 +3964,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement5 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement5 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3345,6 +3973,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement5 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement5 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3356,6 +3986,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement6 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement6 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3363,6 +3995,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement6 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement6 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3370,6 +4004,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement6 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement6 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3377,6 +4013,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement6 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement6 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3384,6 +4022,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement6 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement6 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3395,6 +4035,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement7 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement7 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3402,6 +4044,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement7 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement7 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3409,6 +4053,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement7 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement7 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3416,6 +4062,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement7 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement7 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3423,6 +4071,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement7 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement7 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3434,6 +4084,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement8 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement8 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3441,6 +4093,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement8 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement8 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3448,6 +4102,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement8 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement8 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3455,6 +4111,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement8 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement8 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3462,6 +4120,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement8 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement8 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3473,6 +4133,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement9 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement9 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3480,6 +4142,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement9 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement9 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3487,6 +4151,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement9 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement9 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3494,6 +4160,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement9 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement9 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3501,6 +4169,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup7 .familiaElement9 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup7 .familiaElement9 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3516,6 +4186,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement1 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement1 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3523,6 +4195,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement1 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement1 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3530,6 +4204,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement1 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement1 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3537,6 +4213,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement1 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement1 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3544,6 +4222,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement1 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement1 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3555,6 +4235,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement2 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement2 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3562,6 +4244,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement2 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement2 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3569,6 +4253,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement2 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement2 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3576,6 +4262,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement2 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement2 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3583,6 +4271,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement2 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement2 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3594,6 +4284,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement3 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement3 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3601,6 +4293,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement3 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement3 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3608,6 +4302,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement3 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement3 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3615,6 +4311,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement3 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement3 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3622,6 +4320,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement3 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement3 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3633,6 +4333,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement4 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement4 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3640,6 +4342,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement4 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement4 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3647,6 +4351,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement4 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement4 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3654,6 +4360,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement4 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement4 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3661,6 +4369,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement4 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement4 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3672,6 +4382,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement5 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement5 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3679,6 +4391,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement5 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement5 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3686,6 +4400,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement5 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement5 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3693,6 +4409,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement5 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement5 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3700,6 +4418,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement5 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement5 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3711,6 +4431,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement6 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement6 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3718,6 +4440,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement6 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement6 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3725,6 +4449,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement6 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement6 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3732,6 +4458,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement6 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement6 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3739,6 +4467,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement6 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement6 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3750,6 +4480,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement7 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement7 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3757,6 +4489,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement7 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement7 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3764,6 +4498,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement7 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement7 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3771,6 +4507,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement7 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement7 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3778,6 +4516,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement7 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement7 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3789,6 +4529,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement8 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement8 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3796,6 +4538,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement8 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement8 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3803,6 +4547,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement8 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement8 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3810,6 +4556,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement8 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement8 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3817,6 +4565,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement8 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement8 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3828,6 +4578,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement9 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement9 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3835,6 +4587,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement9 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement9 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3842,6 +4596,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement9 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement9 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3849,6 +4605,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement9 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement9 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3856,6 +4614,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup8 .familiaElement9 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup8 .familiaElement9 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3871,6 +4631,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement1 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement1 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3878,6 +4640,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement1 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement1 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3885,6 +4649,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement1 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement1 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3892,6 +4658,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement1 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement1 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3899,6 +4667,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement1 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement1 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3910,6 +4680,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement2 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement2 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3917,6 +4689,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement2 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement2 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3924,6 +4698,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement2 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement2 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3931,6 +4707,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement2 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement2 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3938,6 +4716,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement2 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement2 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3949,6 +4729,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement3 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement3 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3956,6 +4738,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement3 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement3 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -3963,6 +4747,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement3 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement3 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -3970,6 +4756,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement3 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement3 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -3977,6 +4765,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement3 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement3 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -3988,6 +4778,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement4 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement4 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -3995,6 +4787,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement4 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement4 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -4002,6 +4796,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement4 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement4 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -4009,6 +4805,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement4 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement4 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -4016,6 +4814,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement4 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement4 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -4027,6 +4827,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement5 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement5 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -4034,6 +4836,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement5 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement5 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -4041,6 +4845,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement5 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement5 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -4048,6 +4854,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement5 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement5 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -4055,6 +4863,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement5 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement5 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -4066,6 +4876,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement6 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement6 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -4073,6 +4885,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement6 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement6 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -4080,6 +4894,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement6 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement6 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -4087,6 +4903,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement6 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement6 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -4094,6 +4912,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement6 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement6 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -4105,6 +4925,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement7 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement7 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -4112,6 +4934,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement7 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement7 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -4119,6 +4943,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement7 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement7 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -4126,6 +4952,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement7 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement7 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -4133,6 +4961,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement7 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement7 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -4144,6 +4974,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement8 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement8 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -4151,6 +4983,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement8 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement8 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -4158,6 +4992,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement8 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement8 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -4165,6 +5001,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement8 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement8 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -4172,6 +5010,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement8 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement8 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; }
@@ -4183,6 +5023,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement9 .familiaE1 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement9 .familiaE1 #descriptionPerson1 {
           width: 100%;
           text-align: center; }
@@ -4190,6 +5032,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement9 .familiaE2 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement9 .familiaE2 #descriptionPerson2 {
           width: 100%;
           text-align: center; }
@@ -4197,6 +5041,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement9 .familiaE3 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement9 .familiaE3 #descriptionPerson3 {
           width: 100%;
           text-align: center; }
@@ -4204,6 +5050,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement9 .familiaE4 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement9 .familiaE4 #descriptionPerson4 {
           width: 100%;
           text-align: center; }
@@ -4211,6 +5059,8 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column; }
+        .familias .familiasGroup9 .familiaElement9 .familiaE5 p {
+          padding: 5px; }
         .familias .familiasGroup9 .familiaElement9 .familiaE5 #descriptionPerson5 {
           width: 100%;
           text-align: center; } }
@@ -4285,38 +5135,33 @@ section {
   section .sectionMain__personajes {
     margin-top: 20px;
     margin-left: 30px;
-    margin-right: 50px; }
-    section .sectionMain__personajes .Line {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      margin-top: 30px; }
-      section .sectionMain__personajes .Line .sectionMain__personajes__Element {
-        border-radius: 1rem;
-        box-shadow: 1px -5px 10px 1px rgba(0, 0, 0, 0.25);
-        margin-left: 5px;
-        margin-right: 5px;
-        background-color: white;
-        width: 20%;
-        height: 350px;
-        margin-top: 10px;
-        overflow: hidden;
-        transition: 0.5s;
-        position: relative;
-        transition: 600ms all;
-        transform-origin: center left; }
-        section .sectionMain__personajes .Line .sectionMain__personajes__Element .personaje__description {
-          margin: 4px;
-          transform: translateY(200%); }
-          section .sectionMain__personajes .Line .sectionMain__personajes__Element .personaje__description p {
-            text-align: justify;
-            font-size: 12px;
-            z-index: 5; }
-
-#centrar {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    section .sectionMain__personajes .sectionMain__personajes__Element {
+      border-radius: 1rem;
+      box-shadow: 1px -5px 10px 1px rgba(0, 0, 0, 0.25);
+      margin-left: 5px;
+      margin-right: 5px;
+      background-color: white;
+      width: 20%;
+      height: 350px;
+      margin-top: 10px;
+      overflow: hidden;
+      transition: 0.5s;
+      position: relative;
+      transition: 600ms all;
+      transform-origin: center left; }
+      section .sectionMain__personajes .sectionMain__personajes__Element .personaje__description {
+        margin: 4px;
+        transform: translateY(200%); }
+        section .sectionMain__personajes .sectionMain__personajes__Element .personaje__description p {
+          text-align: justify;
+          font-size: 12px;
+          z-index: 5; }
+    section .sectionMain__personajes #centrar {
+      margin: 10px auto; }
 
 section .contenedorTemas {
   text-align: justify;
@@ -4341,10 +5186,10 @@ section #invertido {
 .sectionMain__personajes__Element:hover ~ .sectionMain__personajes__Element {
   transform: translate3d(100px, 0, 0); }
 
-.Line:hover.sectionMain__personajes__Element {
+.sectionMain__personajes__Element:hover .sectionMain__personajes {
   opacity: 0.3; }
 
-.Line:hover .sectionMain__personajes__Element:hover {
+.sectionMain__personajes:hover .sectionMain__personajes__Element:hover {
   transform: scale(1.2);
   height: 400px;
   opacity: 1;
@@ -4352,12 +5197,16 @@ section #invertido {
   margin-bottom: 80px;
   border-radius: 20px;
   text-align: center; }
-  .Line:hover .sectionMain__personajes__Element:hover #im {
+  .sectionMain__personajes:hover .sectionMain__personajes__Element:hover #im {
     height: 100px; }
-  .Line:hover .sectionMain__personajes__Element:hover .personaje__description {
+  .sectionMain__personajes:hover .sectionMain__personajes__Element:hover .personaje__description {
     transform: translateY(0); }
 
 /* selectores */
+a {
+  text-decoration: none;
+  color: rgba(18, 55, 51, 0.727); }
+
 ul {
   list-style: none;
   display: inline; }
@@ -4374,7 +5223,7 @@ h1 {
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  font-size: 150px;
+  font-size: 7rem;
   line-height: .75;
   margin: 10px 0; }
 
@@ -4397,74 +5246,140 @@ h3 {
   font-weight: bold;
   text-align: center; }
 
-a {
-  color: rgba(18, 55, 51, 0.727);
-  text-decoration: none; }
-
-@media only screen and (max-width: 900px) {
-  .sectionMain__personajes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 900px;
-    justify-items: center;
-    margin: 0 200px;
-    overflow-x: static; } }
+@media only screen and (max-width: 1050px) {
+  .titulo {
+    height: 400px;
+    font-size: 10rem;
+    padding-top: 12%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto; }
+    .titulo .tituloPrincipal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 5px;
+      margin: 0; }
+      .titulo .tituloPrincipal .tituloPrincipal__trapezoid {
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: #d1d1d1;
+        transform: perspective(6px) rotateX(179deg); }
+  h1 {
+    margin-top: 20px;
+    font-size: 7rem; }
+  h2 {
+    padding-top: 0;
+    margin-top: 0; }
+  section {
+    display: block; }
+    section .sectionMain__personajes {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-items: center;
+      margin: 0; }
+      section .sectionMain__personajes .sectionMain__personajes__Element {
+        width: 70%; } }
 
 @media only screen and (max-width: 800px) {
-  main .tituloPrincipal {
+  .titulo {
+    height: 400px;
+    font-size: 10rem;
+    padding-top: 15%;
     display: flex;
-    justify-items: center;
-    width: 40%;
-    height: 150px;
-    font-size: 1em;
-    border-bottom: solid red;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin: auto;
-    margin-top: 50px;
-    -webkit-text-stroke: 1px black;
-    -webkit-text-fill-color: yellow;
-    position: relative; }
-    main .tituloPrincipal .text {
-      font-size: 80%; }
-    main .tituloPrincipal .tituloPrincipal__trapezoid {
-      margin: auto;
-      /* width: 288px;
-                height: 150px; */
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      background: #d1d1d1;
-      transform: perspective(6px) rotateX(179deg); } }
+    margin: auto; }
+    .titulo .tituloPrincipal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 10px;
+      margin: 0; }
+      .titulo .tituloPrincipal .tituloPrincipal__trapezoid {
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: #d1d1d1;
+        transform: perspective(44px) rotateX(176deg); }
+  h1 {
+    margin-top: 30px;
+    font-size: 4rem; }
+  h2 {
+    padding-top: 0; }
+  section {
+    display: block; }
+    section .sectionMain__personajes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+      margin: 0; }
+      section .sectionMain__personajes .sectionMain__personajes__Element {
+        width: 70%; } }
 
-@media only screen and (max-width: 600px) {
-  main .tituloPrincipal {
+@media only screen and (max-width: 650px) {
+  .titulo {
+    height: 400px;
+    font-size: 10rem;
     display: flex;
     justify-items: center;
-    width: 40%;
-    height: 150px;
-    font-size: 1em;
-    border-bottom: solid red;
+    align-items: center;
     text-align: center;
-    margin: auto;
-    margin-top: 50px;
-    -webkit-text-stroke: 1px black;
-    -webkit-text-fill-color: yellow;
-    position: relative; }
-    main .tituloPrincipal .text {
-      font-size: 50%; }
-    main .tituloPrincipal .tituloPrincipal__trapezoid {
-      margin: auto;
-      /* width: 288px;
-                height: 150px; */
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      background: #d1d1d1;
-      transform: perspective(6px) rotateX(179deg); } }
+    margin: auto; }
+    .titulo .tituloPrincipal {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 30px;
+      width: 70%; }
+      .titulo .tituloPrincipal .tituloPrincipal__trapezoid {
+        margin: auto;
+        padding-top: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: #d1d1d1;
+        transform: perspective(6px) rotateX(179deg); }
+  h1 {
+    margin-top: 80px;
+    font-size: 2rem; }
+  h2 {
+    padding-top: 0; }
+  section {
+    display: block; }
+    section .sectionMain__personajes {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      margin: 0; }
+      section .sectionMain__personajes .sectionMain__personajes__Element {
+        width: 70%; }
+  section .contenedorTemas {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 5px; }
+    section .contenedorTemas .Tema {
+      width: 70%; }
+  section #invertido {
+    display: flex;
+    flex-direction: column-reverse; } }
 
 @keyframes appear-animation {
   0% {
