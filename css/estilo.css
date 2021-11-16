@@ -38,6 +38,11 @@ header {
     width: 70px;
     border: 1px solid grey;
     clip-path: circle(65% at center); }
+  .menu:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white; }
+    .menu:hover .nav.navbar-nav.navbar-right li a {
+      color: black; }
 
 .sectionMain {
   position: relative;
@@ -5186,7 +5191,7 @@ section #invertido {
 .sectionMain__personajes__Element:hover ~ .sectionMain__personajes__Element {
   transform: translate3d(100px, 0, 0); }
 
-.sectionMain__personajes__Element:hover .sectionMain__personajes {
+.sectionMain__personajes:hover .sectionMain__personajes__Element:hover {
   opacity: 0.3; }
 
 .sectionMain__personajes:hover .sectionMain__personajes__Element:hover {
@@ -5379,7 +5384,11 @@ h3 {
       width: 70%; }
   section #invertido {
     display: flex;
-    flex-direction: column-reverse; } }
+    flex-direction: column-reverse; }
+  .sectionMain__personajes__Element:hover ~ .sectionMain__personajes__Element {
+    transform: translate3d(0, 10px, 0); }
+  .sectionMain__personajes:hover .sectionMain__personajes__Element:hover {
+    transform: translate3d(-5px, 0, 0); } }
 
 @keyframes appear-animation {
   0% {
