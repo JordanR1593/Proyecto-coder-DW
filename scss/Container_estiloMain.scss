@@ -115,6 +115,7 @@ body{
                     position: relative;
                     transition: 600ms all;
                     transform-origin: center left;
+                    
                     .personaje__description{
                         margin: 4px;
                         transform: translateY(200%);
@@ -173,12 +174,17 @@ body{
 
 .sectionMain__personajes__Element:hover ~ .sectionMain__personajes__Element {
     transform: translate3d(100px, 0,0);
+        
     
     }
-    .sectionMain__personajes:hover .sectionMain__personajes__Element:hover {
+
+    .sectionMain__personajes .sectionMain__personajes__Element:hover {
         
             opacity: 0.3;
         
+    }
+    .sectionMain__personajes #centrar:hover {
+        margin: 50px auto;
     }
     .sectionMain__personajes:hover .sectionMain__personajes__Element:hover {
     transform: scale(1.2);
@@ -190,11 +196,12 @@ body{
     
     border-radius: 20px;
     text-align: center;
-        #im{
-            height: 100px;
-        }
+        
         .personaje__description{
             transform: translateY(0);
+        }
+        #im {
+            height: 70px;
         }
        
     }
@@ -213,8 +220,6 @@ ul{
 }
 #im {
     height: 300px;
-    
-    
 }
 h1 {
     background-image: url("../Imagenes globales/ezgif.com-gif-maker.gif");
@@ -457,6 +462,7 @@ h2{
                 margin: 0 ;
                 .sectionMain__personajes__Element{
                     width:70%;
+                    
                 }
            
         }
@@ -476,11 +482,16 @@ h2{
         }
       }      
      .sectionMain__personajes__Element:hover ~ .sectionMain__personajes__Element{
-         transform: translate3d(0,10px,0)
+         transform: translate3d(0,5px,0);
+         margin:0;
+         
      } 
      .sectionMain__personajes:hover .sectionMain__personajes__Element:hover{
          transform: translate3d(-5px,0,0);
-     }      
+     }   
+     .sectionMain__personajes:hover .sectionMain__personajes__Element:hover{
+         height: auto;
+     }   
          
  }
 @keyframes appear-animation {
